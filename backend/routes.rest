@@ -1,0 +1,16 @@
+GET http://localhost:8080/contacts
+# the request above returns a json object with all contacts data for mongodb database. No database is connected.
+
+###
+GET http://localhost:8080/contacts/63fd55e7498e0e699817d85d
+# the request above returns a json object with a single contact data for mongodb database. No database is connected.
+
+###
+GET http://localhost:8080/contacts/63fd55e7498e0e699817d85e
+# the request above returns a json object with a single contact data for mongodb database. No database is connected.
+
+###
+GET http://localhost:8080/contacts/63fd55e7498e0e699817d85f
+# the request above returns a json object with a single contact data for mongodb database. No database is connected.
+
+###
